@@ -68,6 +68,10 @@ print([x[0] for x in [(a[i][0], a.append([a[i][1], a[i][0]+a[i][1]])) for a in (
 
 # 一行代码实现快排算法
 qsort = lambda arr: len(arr) > 1 and qsort(list(filter(lambda x: x <= arr[0], arr[1:]))) + arr[0:1] + qsort(list(filter(lambda x: x > arr[0], arr[1:]))) or arr
+#example
+arr=[1,34,54,3,4,32,344,2]
+print(qsort(err))
+
 
 
 # 一行代码解决八皇后问题
